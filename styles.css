@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    color: #05386B;
+    background-color: #5CDB95;
+    font-size: 25px;
+}
+.card{
+    width: fit-content;
+    height: fit-content;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 15px #8EE4AF;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
+.datetime{
+    font-size: 15px;
+}
+.temp{
+    line-height: 1.5;
+}
+.aqi_index{
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+.left{
+    text-align: left;
+    padding: 10px;
+}
+.right{
+    text-align: left;
+    padding: 10px;
+}

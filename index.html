@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>AQI</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="card">
+            <div class="datetime" id="datetime"></div><br>
+            <div class="temp">
+                <h5 id="status"></h5>
+                <h6 id="currlocation"></h6>
+                <h1 id="temperature"></h1>
+            </div>
+            <div>
+                <img style="font-size: 75px;" id="statimg"></img>
+            </div>
+            <div class="aqi_index">
+                <div class="left">
+                    <h6 id="humidity"></h6>
+                    <h6 id="precipitation"></h6>
+                    <h6 id="co"></h6>
+                    <h6 id="no2"></h6>
+                </div>
+                <div class="right">
+                    <h6 id="o3"></h6>
+                    <h6 id="so2"></h6>
+                    <h6 id="pm10"></h6>
+                    <h6 id="pm2_5"></h6>
+                </div>
+            </div>
+        </div>
+       <script src="script.js"></script> 
+    </body>
+</html>
